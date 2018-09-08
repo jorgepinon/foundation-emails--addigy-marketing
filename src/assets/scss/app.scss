@@ -1,4 +1,70 @@
 @import 'settings';
 @import 'foundation-emails';
 
-@import 'template/template';
+body {
+	background-color: #f1f2f4;
+}
+table.body {
+	background: #fff;
+}
+table.header {
+	background: $dark-gray;
+	color: #ffffff;
+}
+h1 {
+	line-height: 1.1;
+}
+.header .logo {
+	width: 170px;
+	margin-top: 15px;
+}
+
+.footer p {
+	font-size: 13px;
+	color: lighten($dark-gray, 20);
+
+	a {
+		font-weight: normal;
+	}
+}
+
+a {
+	font-weight: bold;
+}
+hr {
+	border: 0;
+	border-top: solid 1px $medium-gray;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+table.button table td {
+	background: transparent;
+	border: 0;
+	padding: 10px;
+}
+table.button:hover table td, 
+table.button:visited table td, 
+table.button:active table td {
+	background: transparent;
+}
+table.button table td a {
+	background-color: $button-background;
+	color: $button-color;
+}
+
+
+.date {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+p.lead {
+	font-style: italic;
+	font-size: 16px;
+}
+.text-muted {
+	color: $medium-gray;
+}
+// @import 'template/template';
