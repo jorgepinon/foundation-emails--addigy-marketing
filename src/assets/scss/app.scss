@@ -10,13 +10,23 @@ table.body {
 table.header {
 	background: $dark-gray;
 	color: #ffffff;
+
+	th {
+		padding-bottom: 0;
+	}
+
+}
+table.header-light {
+	background: $light-gray;
 }
 h1 {
 	line-height: 1.1;
 }
+
 .header .logo {
 	width: 170px;
 	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .footer p {
