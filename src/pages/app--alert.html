@@ -1,0 +1,48 @@
+---
+subject: Addigy System Alert
+---
+
+{{> app-header}}
+
+<spacer size="24"></spacer>
+
+<container>
+
+	<spacer size="16"></spacer>
+
+	<row>
+		<columns>
+        
+			<h1>System Alert</h1>
+
+			<spacer size="16"></spacer>
+
+			<p>Level: <b>{[{alert_level}]}</b></p>
+
+			<h2>{[{alert_name}]}</h2>
+			<p>{[{alert_type}]} = <b>{[{alert_value}]}</b></p>
+
+			<p>For device: {[{agent_name}]}</p>
+			<p>In Policy: {[{policy_tree}]}<br/>
+			   Alert Type: {[{alert_type}]}<br/>
+			   At: {[{alert_time}]}</p>
+
+			<p>Please review the alert to either acknowledge or resolve.</p>
+
+
+			<spacer size="16"></spacer>
+			<button href="{[{dashboard_url}]}" class="cta">Review Alert</button>
+
+
+
+			<spacer size="32"></spacer>
+			<hr/>
+			<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
+
+      		<spacer size="32"></spacer>
+
+		</columns>
+  
+	</row>
+
+</container>

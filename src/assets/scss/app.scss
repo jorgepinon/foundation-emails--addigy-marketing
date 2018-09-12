@@ -38,14 +38,16 @@ h1 {
 	}
 }
 
+li {
+	margin-bottom: 20px;
+}
+
 a {
 	font-weight: bold;
 }
 hr {
 	border: 0;
 	border-top: solid 1px $medium-gray;
-	margin-left: 40px;
-	margin-right: 40px;
 }
 
 table.button table td {
