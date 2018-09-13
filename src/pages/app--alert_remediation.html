@@ -1,0 +1,33 @@
+---
+subject: Automatic Remediation
+---
+
+<container>
+	<row>
+		{{> app-header}}
+
+		<columns>
+			
+			<h1>Automatic Remediation Completed</h1>
+
+			<spacer size="16"></spacer>
+
+			<p>{[{alert_level}]} Alert for {[{alert_type}]}</p>
+
+			<p>Received on {[{alert_time}]} was {[{alert_remediation}]}.</p>
+
+
+			<spacer size="16"></spacer>
+			<button href="https://prod.addigy.com">Log in to review Monitoring</button>
+
+
+			<spacer size="32"></spacer>
+			<hr/>
+			<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
+
+      		<spacer size="32"></spacer>
+
+		</columns>
+  
+	</row>
+</container>

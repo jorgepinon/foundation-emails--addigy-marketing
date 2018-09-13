@@ -1,0 +1,34 @@
+---
+subject: Confirm your email
+---
+
+<container>
+	<row>
+		{{> app-header}}
+
+		<columns>
+			
+			<h1>Final Step…</h1>
+
+			<p>Click the button below to finish your registration.</p>
+
+			<spacer size="16"></spacer>
+
+			<p>Email: {[{email}]} <br>
+				Registration Code: {[{registration_code}]}
+			</p>
+
+			<spacer size="16"></spacer>
+			<button href="{[{confirmation_link}]}">Confirm now</button>
+
+
+			<spacer size="32"></spacer>
+			<hr/>
+			<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
+
+      		<spacer size="32"></spacer>
+
+		</columns>
+  
+	</row>
+</container>

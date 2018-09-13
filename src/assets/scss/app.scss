@@ -19,6 +19,21 @@ table.header {
 table.header-light {
 	background: $light-gray;
 }
+table.header-releasenotes {
+	background: $light-gray;
+	border-bottom: solid 3px $red;
+}
+table.header-blog {
+	background: #013544;
+}
+
+div.header-light {
+	background: $dark-gray;
+	padding: 15px 10px 10px 10px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 6px 6px 0 0;
+}
 h1 {
 	line-height: 1.1;
 }
@@ -65,10 +80,24 @@ table.button table td a {
 	color: $button-color;
 }
 
+.cta-button, .cta-button:hover,
+.cta-button:active {
+	display: inline-block;
+	padding: map-get($button-padding, default);
+	margin: $global-margin 0;
+	background: $button-background;
+	color: $button-color !important;
+	border-radius: $global-radius;
+	border: 1px solid $button-background;
+	cursor: pointer;
+	transition: .3s background ease;
+	font-weight: bold;
+	font-size: 1em;
+	text-decoration: none;
+}
 
 .date {
 	text-transform: uppercase;
-	font-weight: bold;
 	font-size: 14px;
 }
 
