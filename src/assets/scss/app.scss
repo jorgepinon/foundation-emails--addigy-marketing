@@ -34,14 +34,29 @@ div.header-light {
 	margin-bottom: 30px;
 	border-radius: 6px 6px 0 0;
 }
-h1 {
-	line-height: 1.1;
+
+div.header--app {
+	padding-top: 8px;
+	padding-bottom: 5px;
 }
 
 .header .logo {
 	width: 170px;
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+div.header--app .logo {
+	max-width: 130px;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.content {
+	padding: 0 20px;
+}
+
+h1 {
+	line-height: 1.1;
 }
 
 .footer p {
