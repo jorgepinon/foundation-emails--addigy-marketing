@@ -4,32 +4,34 @@ subject: Report ready
 
 <container>
 	<row>
-		{{> app-header}}
 
-		<columns>
-        
-			<h1>Report ready</h1>
+		<columns size="12">
+			{{> app-header}}
 
-			<spacer size="16"></spacer>
+			<div class="content">
+				<h1>Report ready</h1>
 
-			<p><b>{[{report_name}]}</b></p>
+				<spacer size="16"></spacer>
 
-			<p>Please review the report by clicking below.</p>
+				<p><b>{[{report_name}]}</b></p>
 
-
-			<spacer size="16"></spacer>
-			<button href="{[{dashboard_url}]}">View Report</button>
+				<p>Please review the report by clicking below.</p>
 
 
-			<spacer size="16"></spacer>
-			<p>Manage your report settings in <a href="https://prod.addigy.com">Addigy</a>.</p>
-	
+				<spacer size="16"></spacer>
+				<button href="{[{dashboard_url}]}">View Report</button>
 
-			<spacer size="32"></spacer>
-			<hr/>
-			<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
 
-      		<spacer size="32"></spacer>
+				<spacer size="16"></spacer>
+				<p>Manage your report settings in <a href="https://prod.addigy.com">Addigy</a>.</p>
+		
+
+				<spacer size="32"></spacer>
+				<hr/>
+				<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
+
+				<spacer size="32"></spacer>
+			</div>
 
 		</columns>
   

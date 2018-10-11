@@ -4,36 +4,39 @@ subject: Support Request
 
 <container>
 	<row>
-		<columns>
-			
-			<div>
-				<img src="{{logo_path}}" alt="" style="display: block;max-height: 100px; margin: 20px 0 40px;">
+
+		<columns size="12">
+
+			<div class="content">
+				<div>
+					<img src="{{logo_path}}" alt="" style="display: block;max-height: 100px; margin: 20px 0 40px;">
+				</div>
+					
+				<h1>Support Request</h1>
+
+				<spacer size="16"></spacer>
+
+				<p><b>User Name:</b> {{name}}<br>
+					<b>Device Name:</b> {{device_name}}<br>
+					<b>Description:</b> {{details}}
+				</p>
+
+				{% if screenshot_url != "" %}
+				<p style="text-align: center">
+					<img style="display: block;max-width: 100%;" alt="screenshot" src="{{screenshot_url}}">
+				</p>
+				{% endif %}
+
+				<spacer size="16"></spacer>
+				<button href="https://prod.addigy.com">Log In</button>
+
+
+				<spacer size="32"></spacer>
+				<hr/>
+				<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
+
+				<spacer size="32"></spacer>
 			</div>
-				
-			<h1>Support Request</h1>
-
-			<spacer size="16"></spacer>
-
-			<p><b>User Name:</b> {{name}}<br>
-				<b>Device Name:</b> {{device_name}}<br>
-				<b>Description:</b> {{details}}
-			</p>
-
-			{% if screenshot_url != "" %}
-            <p style="text-align: center">
-				<img style="display: block;max-width: 100%;" alt="screenshot" src="{{screenshot_url}}">
-			</p>
-        	{% endif %}
-
-			<spacer size="16"></spacer>
-			<button href="https://prod.addigy.com">Log In</button>
-
-
-			<spacer size="32"></spacer>
-			<hr/>
-			<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
-
-      		<spacer size="32"></spacer>
 
 		</columns>
   
