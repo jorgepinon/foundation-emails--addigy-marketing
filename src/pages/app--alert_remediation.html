@@ -4,28 +4,30 @@ subject: Automatic Remediation
 
 <container>
 	<row>
-		{{> app-header}}
 
-		<columns>
-			
-			<h1>Automatic Remediation Completed</h1>
+		<columns size="12">
+			{{> app-header}}
 
-			<spacer size="16"></spacer>
+			<div class="content">
+				<h1>Automatic Remediation Completed</h1>
 
-			<p>{[{alert_level}]} Alert for {[{alert_type}]}</p>
+				<spacer size="16"></spacer>
 
-			<p>Received on {[{alert_time}]} was {[{alert_remediation}]}.</p>
+				<p>{[{alert_level}]} Alert for {[{alert_type}]}</p>
 
-
-			<spacer size="16"></spacer>
-			<button href="https://prod.addigy.com">Log in to review Monitoring</button>
+				<p>Received on {[{alert_time}]} was {[{alert_remediation}]}.</p>
 
 
-			<spacer size="32"></spacer>
-			<hr/>
-			<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
+				<spacer size="16"></spacer>
+				<button href="https://prod.addigy.com">Log in to review Monitoring</button>
 
-      		<spacer size="32"></spacer>
+
+				<spacer size="32"></spacer>
+				<hr/>
+				<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
+
+				<spacer size="32"></spacer>
+			</div>
 
 		</columns>
   

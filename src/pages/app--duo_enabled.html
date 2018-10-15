@@ -5,51 +5,53 @@ subject: Duo Two-Factor Auth Enabled
 
 <container>
 	<row>
-		{{> app-header}}
 
-		<columns>
-        
-			<h1>Duo Mobile Enabled</h1>
+		<columns size="12">
+			{{> app-header}}
 
-			<spacer size="16"></spacer>
+			<div class="content">
+				<h1>Duo Mobile Enabled</h1>
 
-			<p>Two Factor Auth has been enabled with Duo Mobile for your Addigy account.</p>
-			
-			<p>Please scan the following activation code from your Duo Mobile smart phone application.</p>
+				<spacer size="16"></spacer>
 
-			<img src="{[{duo_activation_barcode}]}">
+				<p>Two Factor Auth has been enabled with Duo Mobile for your Addigy account.</p>
+				
+				<p>Please scan the following activation code from your Duo Mobile smart phone application.</p>
 
-			<spacer size="16"></spacer>
+				<img src="{[{duo_activation_barcode}]}">
 
-			<hr/>
+				<spacer size="16"></spacer>
 
-			<p><small><a href="{[{duo_activation_barcode}]}">Problems seeing the barcode?</a> </small></p>
+				<hr/>
 
-
-			<spacer size="32"></spacer>
-			<p>If reading this from a Duo Mobile Enabled device, <br>you can also use this <a href="{[{duo_activation_code}]}">activation code</a>.</p>
+				<p><small><a href="{[{duo_activation_barcode}]}">Problems seeing the barcode?</a> </small></p>
 
 
-			<spacer size="32"></spacer>
-			<hr/>
-
-			<h2>Installing Duo Mobile</h2>
-			<p>If you do not have the Duo Mobile application, please get from the app store.</p>
+				<spacer size="32"></spacer>
+				<p>If reading this from a Duo Mobile Enabled device, <br>you can also use this <a href="{[{duo_activation_code}]}">activation code</a>.</p>
 
 
-			<spacer size="16"></spacer>
-			<button href="https://itunes.apple.com/us/app/duo-mobile/id422663827?mt=8">For iOS</button>
+				<spacer size="32"></spacer>
+				<hr/>
 
-			<spacer size="16"></spacer>
-			<button href="https://play.google.com/store/apps/details?id=com.duosecurity.duomobile&hl=en">For Android</button>
+				<h2>Installing Duo Mobile</h2>
+				<p>If you do not have the Duo Mobile application, please get from the app store.</p>
+
+
+				<spacer size="16"></spacer>
+				<button href="https://itunes.apple.com/us/app/duo-mobile/id422663827?mt=8">For iOS</button>
+
+				<spacer size="16"></spacer>
+				<button href="https://play.google.com/store/apps/details?id=com.duosecurity.duomobile&hl=en">For Android</button>
 
 
 
-			<spacer size="32"></spacer>
-			<hr/>
-			<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
+				<spacer size="32"></spacer>
+				<hr/>
+				<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
 
-      		<spacer size="32"></spacer>
+				<spacer size="32"></spacer>
+			</div>
 
 		</columns>
   

@@ -8,46 +8,47 @@ table.body {
 	background: #fff;
 }
 table.header {
-	background: $dark-gray;
-	color: #ffffff;
-
 	th {
 		padding-bottom: 0;
 	}
-
 }
-table.header-light {
+.header {
+	background: $dark-gray;
+	color: #ffffff;
+}
+.header-light {
 	background: $light-gray;
 }
-table.header-releasenotes {
+.header-releasenotes {
 	background: $light-gray;
 	border-bottom: solid 3px $red;
 }
-table.header-blog {
+.header-blog {
+	padding: 6px 10px;
+	margin-bottom: 30px;
 	background: #013544;
 }
 
-div.header-light {
+.header-light {
 	background: $dark-gray;
-	padding: 15px 10px 10px 10px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	padding: 10px 10px 10px 10px;
+	margin-top: 20px;
+	margin-bottom: 15px;
 	border-radius: 6px 6px 0 0;
 }
-
-div.header--app {
-	padding-top: 8px;
-	padding-bottom: 5px;
+.header--app {
+	padding: 10px 20px 10px 15px;
 }
+
 
 .header .logo {
 	width: 170px;
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-div.header--app .logo {
-	max-width: 130px;
-	margin-top: 5px;
+.header--app .logo {
+	max-width: 120px;
+	margin-top: 0;
 	margin-bottom: 0;
 }
 
@@ -69,7 +70,7 @@ h1 {
 }
 
 li {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 a {

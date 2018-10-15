@@ -3,32 +3,28 @@ subject: Confirm your email
 ---
 
 <container>
-	<row>
-		{{> app-header}}
+	{{> app-header}}
 
-		<columns>
-			
-			<h1>Final Step…</h1>
+	<div class="content">
+		<h1>Final Step...</h1>
 
-			<p>Click the button below to finish your registration.</p>
+		<p>Click the button below to finish your registration.</p>
 
-			<spacer size="16"></spacer>
+		<spacer size="16"></spacer>
 
-			<p>Email: {[{email}]} <br>
-				Registration Code: {[{registration_code}]}
-			</p>
+		<p>Email: {[{email}]} <br>
+			Registration Code: {[{registration_code}]}
+		</p>
 
-			<spacer size="16"></spacer>
-			<button href="{[{confirmation_link}]}">Confirm now</button>
+		<spacer size="16"></spacer>
+		<button href="{[{confirmation_link}]}">Confirm now</button>
 
 
-			<spacer size="32"></spacer>
-			<hr/>
-			<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
+		<spacer size="32"></spacer>
+		<hr/>
+		<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
 
-      		<spacer size="32"></spacer>
+		<spacer size="32"></spacer>
+	</div>
 
-		</columns>
-  
-	</row>
 </container>

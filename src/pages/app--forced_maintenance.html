@@ -4,28 +4,30 @@ subject: Device Maintenance Alert
 
 <container>
 	<row>
-		{{> app-header}}
 
-		<columns>
-			
-			<h1>Device Maintenance Alert</h1>
+		<columns size="12">
+			{{> app-header}}
 
-			<spacer size="16"></spacer>
+			<div class="content">
+				<h1>Device Maintenance Alert</h1>
 
-			<p>Maintenance will be automatically done to the following devices when next come online:</p>
+				<spacer size="16"></spacer>
 
-			<p>{[{devices_jobs}]}</p>
+				<p>Maintenance will be automatically done to the following devices when next come online:</p>
 
-
-			<spacer size="16"></spacer>
-			<button href="https://prod.addigy.com">Log in</button>
+				<p>{[{devices_jobs}]}</p>
 
 
-			<spacer size="32"></spacer>
-			<hr/>
-			<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
+				<spacer size="16"></spacer>
+				<button href="https://prod.addigy.com">Log in</button>
 
-      		<spacer size="32"></spacer>
+
+				<spacer size="32"></spacer>
+				<hr/>
+				<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
+
+				<spacer size="32"></spacer>
+			</div>
 
 		</columns>
   
