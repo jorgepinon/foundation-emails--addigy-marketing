@@ -8,43 +8,45 @@ table.body {
 	background: #fff;
 }
 table.header {
-	background: $dark-gray;
-	color: #ffffff;
-
 	th {
 		padding-bottom: 0;
 	}
-
 }
-table.header-light {
+.header {
+	background: $dark-gray;
+	color: #ffffff;
+}
+.header-light {
 	background: $light-gray;
 }
-table.header-releasenotes {
+.header-releasenotes {
 	background: $light-gray;
 	border-bottom: solid 3px $red;
 }
-table.header-blog {
+.header-blog {
+	padding: 6px 10px;
+	margin-bottom: 30px;
 	background: #013544;
 }
 
-div.header-light {
+.header-light {
 	background: $dark-gray;
 	padding: 10px 10px 10px 10px;
 	margin-top: 20px;
 	margin-bottom: 15px;
 	border-radius: 6px 6px 0 0;
 }
-
-div.header--app {
+.header--app {
 	padding: 10px 20px 10px 15px;
 }
+
 
 .header .logo {
 	width: 170px;
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-div.header--app .logo {
+.header--app .logo {
 	max-width: 120px;
 	margin-top: 0;
 	margin-bottom: 0;
