@@ -3,33 +3,27 @@ subject: An Addigy account has been created for you
 ---
 
 <container>
-	<row>
+	{{> app-header}}
 
-		<columns size="12">
-			{{> app-header}}
+	<div class="content">
+		<h1>Addigy Account Created</h1>
 
-			<div class="content">
-				<h1>Addigy Account Created</h1>
+		<spacer size="16"></spacer>
 
-				<spacer size="16"></spacer>
+		<p>A new user account has been created for you in Addigy. </p>
 
-				<p>A new user account has been created on for you in Addigy. </p>
-
-				<p>To complete the process please click on the button below, or use the following code {[{reset_code}]}.</p>
+		<p>To complete the process please click on the button below, or use the following code: <br/> {[{reset_code}]}</p>
 
 
-				<spacer size="16"></spacer>
-				<button href="{[{reset_url}]}">Set Password</button>
+		<spacer size="16"></spacer>
+		<button href="{[{reset_url}]}">Set Password</button>
 
 
-				<spacer size="32"></spacer>
-				<hr/>
-				<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
+		<spacer size="32"></spacer>
+		<hr/>
+		<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
 
-				<spacer size="32"></spacer>
-			</div>
+		<spacer size="32"></spacer>
+	</div>
 
-		</columns>
-  
-	</row>
 </container>

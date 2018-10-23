@@ -3,31 +3,22 @@ subject: Chat Session Transcript
 ---
 
 <container>
-	<row>
+	{{> app-header}}
 
-		<columns size="12">
-			{{> app-header}}
+	<div class="content">
+		<h1>Chat Session Transcript</h1>
 
-			<div class="content">
-				<h1>Chat Session Transcript</h1>
+		<spacer size="16"></spacer>
+		<p>Chat Session for {[{device_name}]}</p>
 
-				<spacer size="16"></spacer>
+		<spacer size="16"></spacer>
+		<div class="chat">{[{chat_text}]}</div>
 
-				<p>Chat Session for {[{device_name}]}</p>
+		<spacer size="32"></spacer>
+		<hr/>
+		<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
 
-				<spacer size="16"></spacer>
+		<spacer size="32"></spacer>
+	</div>
 
-				<div class="chat">{[{chat_text}]}</div>
-
-
-				<spacer size="32"></spacer>
-				<hr/>
-				<p><small>Addigy, Inc. - <a href="https://www.addigy.com">addigy.com</a></small></p>
-
-				<spacer size="32"></spacer>
-			</div>
-
-		</columns>
-  
-	</row>
 </container>
