@@ -15,6 +15,7 @@ table.header {
 .header {
 	background: $dark-gray;
 	color: #ffffff;
+	height: 48px;
 }
 .header-light {
 	background: $light-gray;
@@ -56,8 +57,20 @@ table.header {
 	padding: 0 20px;
 }
 
+h1, h2, h3, h4 {
+	line-height: 1.2;
+	margin-bottom: 0.3em;
+}
+
 h1 {
 	line-height: 1.1;
+}
+h2 {
+	margin-top: 20px;
+}
+h3 {
+	margin-top: 30px;
+	margin-bottom: 5px;
 }
 
 .footer p {
@@ -85,8 +98,8 @@ table.button table td {
 	background: transparent;
 	border: 0;
 }
-table.button:hover table td, 
-table.button:visited table td, 
+table.button:hover table td,
+table.button:visited table td,
 table.button:active table td {
 	background: transparent;
 }
@@ -123,4 +136,5 @@ p.lead {
 .text-muted {
 	color: $medium-gray;
 }
+
 // @import 'template/template';
