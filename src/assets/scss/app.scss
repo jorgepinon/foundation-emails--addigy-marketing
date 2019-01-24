@@ -12,6 +12,12 @@ table.header {
 		padding-bottom: 0;
 	}
 }
+
+.img--fluid {
+	display: block;
+	width: 100% !important;
+	height:auto !important;
+}
 .header {
 	background: $dark-gray;
 	color: #ffffff;
@@ -106,6 +112,8 @@ table.button:active table td {
 table.button table td a {
 	background-color: $button-background;
 	color: $button-color;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+	text-align: center;
 }
 
 .cta-button, .cta-button:hover,
